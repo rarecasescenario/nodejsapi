@@ -21,3 +21,7 @@ Docker - deployment
 4. In tsconfig.json uncomment and change entries:
    "outDir": "./dist"
    "rootDir": "./src"
+5. Install dependencies
+   npm i cors dotenv express ip mysql2
+6. Install type definitions for code completion for Typescript
+   npm i -D @types/cors @types/express @types/ip types/mysql2 nodemon ts-node typescript
